@@ -197,11 +197,12 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._<br>
 \[12345\]
 
 ## 이미지
-
+```
 - 인라인 이미지 ![alt text](/test.png)
 - 링크 이미지 ![alt text](image_URL)
 - 링크와 비슷하지만 앞에 !가 붙습니다.
 - 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
+```
 ```
 1. ![텍스트](이미지파일경로.jpg)
 2. ![텍스트](이미지파일URL)
@@ -231,6 +232,7 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._<br>
 
 (꺽쇠 갈화 없이도 자동으로 링크를 사용)
 
+
 - 링크이름변경
 ```
 [링크는 젤다의전설 주인공 이름](http://zeldahagoshipda.com)
@@ -239,9 +241,9 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._<br>
 [링크는 젤다의전설 주인공 이름](http://zeldahagoshipda.com)
 
 - 내부(해시) 링크
-
-[보여지는 내용](#이동할 헤드(제목)) 괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성 
 ```
+[보여지는 내용](#이동할 헤드(제목)) 괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성 
+
 [1. Headers 헤더](#1-headers-헤더)
 
 [2. Emphasis 강조](#2-emphasis-강조)
@@ -332,3 +334,53 @@ Left|Center|Right
 1|2|3
 4|5|6
 7|8|9
+
+## 글자색 
+
+```
+<span style="color:red"> red </span>
+<span style="color:#ffd33d"> yellow </span>
+<span style="color:blue"> blue </span>
+<span style="color:brown"> brown </span>
+<span style="color:orange"> orange </span>
+<span style="color:green"> green </span>
+<span style="color:violet"> violet </span>
+<span style="color:yellowgreen"> yellowgreen </span>
+<span style="color:blueviolet"> blueviolet </span>
+<span style="color:gray"> gray</span>
+<span style="color:indigo"> indigo </span>
+```
+
+<span style="color:red"> red </span>
+<span style="color:#ffd33d"> yellow </span>
+<span style="color:blue"> blue </span>
+<span style="color:brown"> brown </span>
+<span style="color:orange"> orange </span>
+<span style="color:green"> green </span>
+<span style="color:violet"> violet </span>
+<span style="color:yellowgreen"> yellowgreen </span>
+<span style="color:blueviolet"> blueviolet </span>
+<span style="color:gray"> gray</span>
+<span style="color:indigo"> indigo </span>
+
+## 형광펜
+
+```
+<span style="background-color:#fff5b1"> 노란형광펜 </span>
+<span style="background-color:#FFE6E6"> 빨강형광펜 </span>
+<span style="background-color:#E6E6FA"> 보라형광펜 </span>
+<span style="background-color:#C0FFFF"> 파랑형광펜 </span>
+<span style="background-color:#FFFFF0"> 노란형광펜 </span>
+<span style="background-color:#F5F5F5"> 회색형광펜 </span>
+<span style="background-color:#DCFFE4"> 초록형광펜 </span>
+```
+
+<span style="background-color:#fff5b1"> 노란형광펜 </span>
+<span style="background-color:#FFE6E6"> 빨강형광펜 </span>
+<span style="background-color:#E6E6FA"> 보라형광펜 </span>
+<span style="background-color:#C0FFFF"> 파랑형광펜 </span>
+<span style="background-color:#FFFFF0"> 노란형광펜 </span>
+<span style="background-color:#F5F5F5"> 회색형광펜 </span>
+<span style="background-color:#DCFFE4"> 초록형광펜 </span>
+
+
