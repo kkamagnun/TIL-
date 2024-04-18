@@ -70,7 +70,7 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._
 ## Blockquotes 인용
 
 # 노인과 바다
-> But man is not made for defeat. A man can be destroyed but not defeated. 
+> But man is not made for defeat. A man can be destroyed but not defeated.<br> 
 > 하지만 인간은 패배하도록 만들어지지 않았다. 파괴될 수는 있어도 절대 패배할 수 없다.
 
 > > Now is no time to think of what you do not have. Think of what you can do with what there is.
@@ -124,17 +124,33 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._
 
 \* 특수문자 출력
 
-\- 특수문자 출력Copy
+\- 특수문자 출력
 
 
-markdown\*literal asterisks\*
+\*12345\*
 
-\#hash mark\#
+\#12345\#
 
-\[squre brackets\]Copy
+\[12345\]
+
+## 이미지
 
 
+- 링크와 비슷하지만 앞에 !가 붙습니다.
+- 인라인 이미지 ![alt text](/test.png)
+- 링크 이미지 ![alt text](image_URL)
+- 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
 
+### 링크와 이미지를 합친 문법 (이미지를 링크로 사용)
+
+[ ![텍스트](이미지URL) ]( 링크URL )
+
+[![](https://t1.daumcdn.net/cafeattach/1D7bO/a72dde3a47d0ca50b567bc4d74702f8a53aa1cbe)](https://github.com/kkamagnun)
+
+
+### <img>태그를 이용한 이미지 크기 조절
+
+<img src="https://i1.sndcdn.com/avatars-000639959556-jhitcq-t500x500.jpg" width="200" height="200" />
 
 
 
