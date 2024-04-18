@@ -334,8 +334,9 @@ Left|Center|Right
 1|2|3
 4|5|6
 7|8|9
+```
 
-## 글자색 
+## 글자색(깃허브 x)
 
 ```
 <span style="color:red"> red </span>
@@ -351,19 +352,7 @@ Left|Center|Right
 <span style="color:indigo"> indigo </span>
 ```
 
-<span style="color:red"> red </span>
-<span style="color:#ffd33d"> yellow </span>
-<span style="color:blue"> blue </span>
-<span style="color:brown"> brown </span>
-<span style="color:orange"> orange </span>
-<span style="color:green"> green </span>
-<span style="color:violet"> violet </span>
-<span style="color:yellowgreen"> yellowgreen </span>
-<span style="color:blueviolet"> blueviolet </span>
-<span style="color:gray"> gray</span>
-<span style="color:indigo"> indigo </span>
-
-## 형광펜
+## 형광펜(깃허브 x)
 
 ```
 <span style="background-color:#fff5b1"> 노란형광펜 </span>
@@ -375,12 +364,22 @@ Left|Center|Right
 <span style="background-color:#DCFFE4"> 초록형광펜 </span>
 ```
 
-<span style="background-color:#fff5b1"> 노란형광펜 </span>
-<span style="background-color:#FFE6E6"> 빨강형광펜 </span>
-<span style="background-color:#E6E6FA"> 보라형광펜 </span>
-<span style="background-color:#C0FFFF"> 파랑형광펜 </span>
-<span style="background-color:#FFFFF0"> 노란형광펜 </span>
-<span style="background-color:#F5F5F5"> 회색형광펜 </span>
-<span style="background-color:#DCFFE4"> 초록형광펜 </span>
+## 깃허브 글자색 바꾸기
 
-
+- 깃허브는 마크다운문법으로 글자에 색을 넣을 수 없음....
+```
+${\color{red}Red}$
+${\color{green}Green}$
+${\color{lightgreen}Light \space Green}$
+${\color{blue}Blue}$
+${\color{lightblue}Light \space Blue}$
+${\color{black}Black}$
+${\color{white}White}$
+```
+${\color{red}Red}$<br>
+${\color{green}Green}$<br>
+${\color{lightgreen}Light \space Green}$<br>
+${\color{blue}Blue}$<br>
+${\color{lightblue}Light \space Blue}$<br>
+${\color{black}Black}$<br>
+${\color{white}White}$<br>
