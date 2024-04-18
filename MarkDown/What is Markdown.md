@@ -69,7 +69,7 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._
 
 ## Blockquotes 인용
 
-# 노인과 바다
+### 노인과 바다
 > But man is not made for defeat. A man can be destroyed but not defeated.<br> 
 > 하지만 인간은 패배하도록 만들어지지 않았다. 파괴될 수는 있어도 절대 패배할 수 없다.
 
