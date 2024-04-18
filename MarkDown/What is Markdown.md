@@ -150,9 +150,84 @@ _자신의 한계를 인정하는 것이 실패의 첫걸음이지._
 
 ### <img>태그를 이용한 이미지 크기 조절
 
-<img src="https://i1.sndcdn.com/avatars-000639959556-jhitcq-t500x500.jpg" width="200" height="200" />
+<img src="https://i.namu.wiki/i/u6RY6Cwfgl5LU3zbiqxbOzmRfe2IEeICXexXNykfzxwnhMwIvV8KddLNkUxyNyDQzBwtvD9swGszVOXM_A0UFw.webp" width="200" height="200" />
 
 
+## Links (Anchor) 링크
+
+- 외부 링크
+
+[Google](http://www.google.com "구글")
+
+[Naver](http://www.naver.com "네이버")
+
+[Github](http://www.github.com "깃허브")
+
+(꺽쇠 갈화 없이도 자동으로 링크를 사용)
+
+- 링크이름변경
+
+[링크는 젤다의전설 주인공 이름](http://zeldahagoshipda.com)
 
 
+- 내부(해시) 링크
+
+[보여지는 내용](#이동할 헤드(제목)) 괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성 
+
+[1. Headers 헤더](#1-headers-헤더)
+
+[2. Emphasis 강조](#2-emphasis-강조)
+
+[3. Blockquotes 인용](#3-blockquotes-인용)
+
+## 코드블럭
+
+- 간단한 인라인 코드는 텍스트를 앞뒤로 `기호로 감싸면 됩니다.
+- ``` 혹은 ~~~ 코드.
+- 코드가 여러 줄인 경우, 줄 앞에 공백 네 칸을 추가하면 됩니다.
+- ``` 옆에 언어를 지정해주면 syntax color가 적용됩니다.
+
+```javascript
+function test() {
+ console.log("look ma’, no spaces");
+}
+```
+
+## 체크리스트
+
+- 줄 앞에 - [x]를 써서 완료된 리스트 표시.
+- 줄 앞에 - [ ]를 써서 미완료된 리스트 표시.
+- 체크 안에서 강조 외에 여러 기능을 사용할 수 있습니다.
+
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+- [ ] 
+예시
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+
+## Table 테이블
+
+- 헤더와 셀을 구분할 때 3개 이상의 -(hyphen/dash) 기호가 필요합니다.
+- 헤더 셀을 구분하면서 :(Colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있습니다.
+- 가장 좌측과 가장 우측에 있는 |(vertical bar) 기호는 생략 가능합니다.
+
+
+테이블 생성
+
+헤더1|헤더2|헤더3|헤더4
+---|---|---|---
+셀1|셀2|셀3|셀4
+셀5|셀6|셀7|셀8
+셀9|셀10|셀11|셀12
+
+테이블 정렬
+
+
+헤더1|헤더2|헤더3
+:---|:---:|---:
+Left|Center|Right
+1|2|3
+4|5|6
+7|8|9
 
